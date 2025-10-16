@@ -1,0 +1,1 @@
+execute as @e[type=#mtaf:boats,nbt=!{Passengers:[{}]}] at @s unless entity @a[distance=..1] run kill @s

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:multi_action",
+  "inputs": [],
+  "can_close_with_escape": true,
+  "columns": 1,
+  "exit_action": {
+    "label": "Exit",
+    "width": 50
+  },
+  "title": {
+    "text": "White Spell Book Spell Selecter"
+  },
+  "actions": [
+    {
+      "label": "TNT Summon (1 TNT. 5XP)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ZZZZZZZMTAFHelperTrigger set 1"
+      }
+    },
+    {
+      "label": "Cloud Launch (5GP 5XP)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ZZZZZZZMTAFHelperTrigger set 2"
+      }
+    },
+    {
+      "label": "Cloud Dash (30XP)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ZZZZZZZMTAFHelperTrigger set 3"
+      }
+    }
+    
+  ]
+}

@@ -1,0 +1,1 @@
+execute if score $deathCoordsEnabled _vars matches 1 run tellraw @s {"text":"You died at: ","color":"red","extra":[{"score":{"name":"@s","objective":"deathX"},"color":"yellow"},{"text":", "},{"score":{"name":"@s","objective":"deathY"},"color":"yellow"},{"text":", "},{"score":{"name":"@s","objective":"deathZ"},"color":"yellow"}]}

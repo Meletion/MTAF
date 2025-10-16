@@ -1,0 +1,2 @@
+execute as @a[tag=goingtogethealthitemattempt] if score @s maxhealth matches 20 run give @s red_dye[food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:2147483647},custom_data={heart:1b},custom_name={"color":"gold","italic":false,"text":"LifeSteal Heart"},lore=[{"color":"blue","italic":true,"text":"MTAF: Lifesteal"}]] 1
+tag @a[tag=goingtogethealthitemattempt] remove goingtogethealthitemattempt

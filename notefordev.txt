@@ -1,0 +1,2 @@
+Here is your path, I keep losing it, so if it's baked in I won't lose it.
+/var/home/bazzite/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Fabulously Optimized(1)/minecraft/saves/Datapacking/datapacks/MTAF/

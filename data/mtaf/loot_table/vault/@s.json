@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "storage",
+          "name": "mtaf:vaults",
+          "source": "player-uuid"
+        }
+      ]
+    }
+  ]
+}

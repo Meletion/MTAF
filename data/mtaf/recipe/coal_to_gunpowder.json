@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "coal",
+  "result": {
+    "id": "minecraft:gunpowder",
+    "components": {
+      "minecraft:custom_data": {
+        "mtaf_coal_to_gunpowder": true
+      }
+    }
+  }
+}

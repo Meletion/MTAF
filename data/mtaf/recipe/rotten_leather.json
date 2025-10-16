@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "minecraft:rotten_flesh",
+  "result": {
+    "id": "leather",
+    "components": {
+        "minecraft:custom_name": {"color":"#2B4A00","italic":false,"text":"Rotten Leather"},
+        "minecraft:item_model": "mtaf:rotten_leather"
+    }
+  }
+}

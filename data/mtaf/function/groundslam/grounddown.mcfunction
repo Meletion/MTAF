@@ -1,0 +1,2 @@
+execute as @e[tag=groundslamming] at @s run summon creeper ~ ~4 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,ExplosionRadius:-3b,Fuse:0,attributes:[{id:"minecraft:scale",base:2.1}]}
+execute as @e[tag=groundslamming] at @s run summon creeper ~ ~4 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,ExplosionRadius:-3b,Fuse:0,attributes:[{id:"minecraft:scale",base:2.1}]}

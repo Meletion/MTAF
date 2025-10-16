@@ -1,0 +1,35 @@
+{
+	"criteria": {
+		"default_block_use": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:enchanting_table"
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"slots": {
+								"weapon.mainhand": {
+									"items": "minecraft:glass_bottle"
+								}
+							},
+							"type_specific": {
+								"type": "player",
+								"level": {
+									"min": 1
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "mtaf:bottle_xp"
+	}
+}

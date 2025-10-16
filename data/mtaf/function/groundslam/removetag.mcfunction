@@ -1,0 +1,1 @@
+execute as @e[tag=groundslamming] run tag @s remove groundslamming

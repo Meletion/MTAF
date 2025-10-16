@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{heart:true}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mtaf:lifesteal/getheart"
+    }
+}
