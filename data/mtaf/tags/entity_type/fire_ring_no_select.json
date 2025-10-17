@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:item",
+        "minecraft:item_display",
+        "minecraft:item_frame",
+        "minecraft:glow_item_frame",
+        "#mtaf:boats",
+        "minecraft:armor_stand",
+        "minecraft:marker"
+    ]
+}

@@ -77,6 +77,7 @@ scoreboard objectives add fireRingLoop dummy
 
 ######                                                               Misc                                                                                   ######
 
-
+# Expiry
+scoreboard objectives add lifeexpiry dummy
 # Make sure init doesn't get ran again.
 scoreboard players set $alreadyran _vars 1

@@ -7,5 +7,6 @@
         "minecraft:custom_name": {"color":"#2B4A00","italic":false,"text":"Rotten Leather"},
         "minecraft:item_model": "mtaf:rotten_leather"
     }
-  }
+  },
+  "experience": 10
 }

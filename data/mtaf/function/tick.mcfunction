@@ -9,7 +9,6 @@ scoreboard players set @a IsSneaking 0
 # MAGIC ]]]]]]]]]]]]]]]]]]]
 
 function mtaf:magic/book2/tick
-
 # Cooldowns
 execute as @e run execute if score @s spell1Cooldown matches 1.. run scoreboard players remove @s spell1Cooldown 1
 execute as @e run execute if score @s spell2Cooldown matches 1.. run scoreboard players remove @s spell2Cooldown 1
@@ -29,6 +28,6 @@ execute as @a if items entity @s container.* minecraft:gunpowder[minecraft:custo
 
 
 
-
-
-
+# Expiry scoreboard
+scoreboard players remove @e[scores={lifeexpiry=1..}] lifeexpiry 1
+kill @e[scores={lifeexpiry=..0}]
