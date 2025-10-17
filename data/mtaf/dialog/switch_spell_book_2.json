@@ -12,14 +12,14 @@
   },
   "actions": [
     {
-      "label": "Fire Ring",
+      "label": "Fire Ring (1 BP, 10 XP)",
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger ZZZZZZZMTAFHelperTrigger set 4"
       }
     },
     {
-      "label": "Ironskin",
+      "label": "Ironskin (10 BP, 30 XP)",
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger ZZZZZZZMTAFHelperTrigger set 5"
