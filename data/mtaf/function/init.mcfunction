@@ -42,7 +42,7 @@ scoreboard objectives add currentSpell dummy
 scoreboard objectives add cloudTimer dummy
 
 
-# ZZZZZZZMTAFHelperTrigger means spell to switch
+# ZZZZZZZMTAFHelperTrigger
 scoreboard objectives add ZZZZZZZMTAFHelperTrigger trigger
 
 # Cooldowns
@@ -66,7 +66,8 @@ scoreboard objectives add withdrawHearts trigger
 # Raycasting
 scoreboard objectives add raycastingsteps dummy
 
-
+# Magic
+scoreboard objectives add fireRingLoop dummy
 
 ######                                                               Misc                                                                                   ######
 
