@@ -1,0 +1,3 @@
+execute as @e[type=minecraft:item,nbt={Item:{"id":"minecraft:flint_and_steel"}}] at @s as @e[type=minecraft:item,nbt={Item:{"id":"minecraft:netherrack", count:3}},distance=..1] as @e[type=minecraft:item,nbt={Item:{"id":"minecraft:fire_charge"}},distance=..1] as @e[type=minecraft:item,nbt={Item:{"id":"minecraft:book"}}] as @e[type=minecraft:item,nbt={Item:{"id":"minecraft:lava_bucket"}},distance=..1] as @e[type=minecraft:item,nbt={Item:{"id":"minecraft:soul_sand"}},distance=..1] as @e[type=minecraft:item,nbt={Item:{"id":"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_fire_resistance"}}}},distance=..1] if block ~ ~ ~ minecraft:enchanting_table run function mtaf:magic/book2/oncraft
+
+schedule function mtaf:magic/book2/craftloop 10s

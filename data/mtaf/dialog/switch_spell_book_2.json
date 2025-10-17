@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:multi_action",
+  "inputs": [],
+  "can_close_with_escape": true,
+  "columns": 1,
+  "exit_action": {
+    "label": "Exit",
+    "width": 50
+  },
+  "title": {
+    "text": "Amber Spell Book Spell Selecter"
+  },
+  "actions": [
+    {
+      "label": "Fire Ring",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ZZZZZZZMTAFHelperTrigger set 4"
+      }
+    },
+    {
+      "label": "Ironskin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ZZZZZZZMTAFHelperTrigger set 5"
+      }
+    },
+    {
+      "label": "6",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ZZZZZZZMTAFHelperTrigger set 6"
+      }
+    }
+    
+  ]
+}

@@ -2,4 +2,3 @@ execute as @e[type=item,nbt={Item:{components:{"minecraft:item_model":"mtaf:clou
 
 
 schedule function mtaf:magic/book1/craftloop 10s
-

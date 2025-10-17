@@ -1,0 +1,2 @@
+kill @e[type=item,distance=..2]
+summon item ~ ~1 ~ {Item:{id:"minecraft:carrot_on_a_stick",count:1b,components:{"minecraft:item_name":{text:"Amber Spell Book",italic:false,bold:true,color:"#ff9151"},"minecraft:item_model":"minecraft:book","minecraft:custom_data":{current_spell:0,spell_book:2}}}}

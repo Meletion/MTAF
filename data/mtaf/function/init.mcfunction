@@ -37,6 +37,7 @@ scoreboard objectives add JoinGame minecraft.custom:minecraft.leave_game
 
 # Spell Book
 scoreboard objectives add TNTCount dummy
+scoreboard objectives add BlazePowderCount dummy
 scoreboard objectives add GunpowderCount dummy
 scoreboard objectives add currentSpell dummy
 scoreboard objectives add cloudTimer dummy
@@ -50,11 +51,16 @@ scoreboard objectives add ZZZZZZZMTAFHelperTrigger trigger
 scoreboard objectives add spell1Cooldown dummy
 scoreboard objectives add spell2Cooldown dummy
 scoreboard objectives add spell3Cooldown dummy
+scoreboard objectives add spell4Cooldown dummy
+scoreboard objectives add spell5Cooldown dummy
+scoreboard objectives add spell6Cooldown dummy
 
 scoreboard objectives add spell1Seconds dummy
 scoreboard objectives add spell2Seconds dummy
 scoreboard objectives add spell3Seconds dummy
-
+scoreboard objectives add spell4Seconds dummy
+scoreboard objectives add spell5Seconds dummy
+scoreboard objectives add spell6Seconds dummy
 # XP Tracking
 scoreboard objectives add XPPoints xp
 

@@ -14,7 +14,9 @@ function mtaf:magic/book2/tick
 execute as @e run execute if score @s spell1Cooldown matches 1.. run scoreboard players remove @s spell1Cooldown 1
 execute as @e run execute if score @s spell2Cooldown matches 1.. run scoreboard players remove @s spell2Cooldown 1
 execute as @e run execute if score @s spell3Cooldown matches 1.. run scoreboard players remove @s spell3Cooldown 1
-
+execute as @e run execute if score @s spell4Cooldown matches 1.. run scoreboard players remove @s spell4Cooldown 1
+execute as @e run execute if score @s spell5Cooldown matches 1.. run scoreboard players remove @s spell5Cooldown 1
+execute as @e run execute if score @s spell6Cooldown matches 1.. run scoreboard players remove @s spell6Cooldown 1
 # Cloud Decaying.
 scoreboard players remove @e[tag=hitboxcloud] cloudTimer 1
 
