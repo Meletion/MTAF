@@ -26,7 +26,7 @@
       }
     },
     {
-      "label": "6",
+      "label": "Hell Storm (10 BP, 30 XP)",
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger ZZZZZZZMTAFHelperTrigger set 6"

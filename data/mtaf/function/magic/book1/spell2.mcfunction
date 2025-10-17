@@ -7,8 +7,8 @@ execute if score @s spell2Cooldown matches 1.. run return run title @s[scores={s
 
 
 
-execute if score @s GunpowderCount matches ..6 run return run title @s actionbar "Not Enough Gunpowder (needs 5)"
-execute if score @s XPPoints matches ..11 run return run title @s actionbar "Not Enough XP (needs 10)"
+execute unless entity @s[gamemode=creative] if score @s GunpowderCount matches ..6 run return run title @s actionbar "Not Enough Gunpowder (needs 5)"
+execute unless entity @s[gamemode=creative] if score @s XPPoints matches ..11 run return run title @s actionbar "Not Enough XP (needs 10)"
 
 summon creeper ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,ExplosionRadius:-3b,Fuse:0,attributes:[{id:"minecraft:scale",base:0.1}]}
 
@@ -24,8 +24,8 @@ scoreboard players set @n[type=minecraft:happy_ghast,tag=hitboxcloud] cloudTimer
 effect give @e[type=minecraft:happy_ghast,tag=hitboxcloud] minecraft:invisibility infinite 255 true
 
 
-clear @s gunpowder 5
-xp add @s -10
+execute unless entity @s[gamemode=creative] run clear @s gunpowder 5
+execute unless entity @s[gamemode=creative] run xp add @s -10
 
 
 scoreboard players add @s spell2Cooldown 50
