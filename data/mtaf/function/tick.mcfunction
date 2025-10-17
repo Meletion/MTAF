@@ -8,7 +8,7 @@ scoreboard players set @a IsSneaking 0
 
 # MAGIC ]]]]]]]]]]]]]]]]]]]
 
-
+function mtaf:magic/book2/tick
 
 # Cooldowns
 execute as @e run execute if score @s spell1Cooldown matches 1.. run scoreboard players remove @s spell1Cooldown 1

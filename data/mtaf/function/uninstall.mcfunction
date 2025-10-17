@@ -25,5 +25,6 @@ scoreboard objectives remove heartcooldown
 scoreboard objectives remove withdrawHearts
 scoreboard objectives remove maxhealth
 scoreboard objectives remove raycastingsteps
+scoreboard objectives remove fireRingLoop
 tellraw @s {"text":"Sorry to see you go, please contact @meletionyt on discord for any concerns, and have a good rest of your day.\nRemove datapack to finish removal."}
 datapack disable "file/MTAF"
