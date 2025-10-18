@@ -1,4 +1,4 @@
-tellraw @a {"color":"gold","text":"[!] Loaded MTAF by meletion, version: 1.0.0"}
+tellraw @a {"color":"gold","text":"[!] Loaded MTAF by meletion, version: 1.1.1"}
 #tellraw @a {"color":"red","text":"[!] THIS IS A TESTING COPY DO NOT RELEASE."}
 tag Meletion add owner
 
