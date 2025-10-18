@@ -10,7 +10,7 @@ execute unless entity @s[gamemode=creative] run clear @s blaze_powder 10
 execute unless entity @s[gamemode=creative] run xp add @s -30
 
 
-scoreboard players add @s spell6Cooldown 1200
+scoreboard players add @s spell6Cooldown 600
 
 tag @s add immunetohellstorm
 
