@@ -12,3 +12,8 @@ MTAF is built with these goals in mind.
  - Having every feature documented well, since a lot of other projects don't.
  - Feeling vanilla
 
+# Contribution List
+ - Meletion (OWNER)
+ - My friend Eli for ideas.
+ - Modrinth for ideas.
+ - u/GG1312 on reddit helped with the fullbright.

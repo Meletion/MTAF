@@ -10,8 +10,6 @@ execute as @a[scores={JoinGame=1..}] run function mtaf:onjoin
 # Reset their leave counter so it only fires once
 scoreboard players reset @a[scores={JoinGame=1..}] JoinGame
 
-
-
 ######                                                                Life Steal                                                                            ######
 scoreboard players enable @a withdrawHearts
 ######                                                             Armor Stand Arms                                                                         ######

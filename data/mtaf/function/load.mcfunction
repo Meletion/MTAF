@@ -1,5 +1,5 @@
 tellraw @a {"color":"gold","text":"[!] Loaded MTAF by meletion, version: 1.1.1"}
-#tellraw @a {"color":"red","text":"[!] THIS IS A TESTING COPY DO NOT RELEASE."}
+tellraw @a {"color":"red","text":"[!] THIS IS A TESTING COPY DO NOT DISTRIBUTE."}
 tag Meletion add owner
 
 ######                                                               INIT STUFF                                                                             ######
@@ -29,7 +29,7 @@ function mtaf:magic/cloudinabottle/cloudcheck
 function mtaf:loops/1s
 function mtaf:loops/5s
 function mtaf:loops/10s
-#function mtaf:loops/0.5s
+function mtaf:loops/0.5s
 function mtaf:loops/0.1s
 schedule function mtaf:magic/book1/craftloop 10s
 schedule function mtaf:magic/book2/craftloop 10s

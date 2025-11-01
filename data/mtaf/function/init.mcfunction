@@ -9,6 +9,7 @@ scoreboard players set $coal_to_gunpowder_enabled _vars 1
 scoreboard players set $deathCoordsEnabled _vars 1
 scoreboard players set $armorStandsHaveArms _vars 0
 scoreboard players set $lifestealEnabled _vars 0
+scoreboard players set $fullbright _vars 1
 
 # Const for some comparing math.
 scoreboard objectives add Const dummy
@@ -76,6 +77,9 @@ scoreboard objectives add raycastingsteps dummy
 scoreboard objectives add fireRingLoop dummy
 
 ######                                                               Misc                                                                                   ######
+
+scoreboard objectives add Fullbright trigger
+scoreboard objectives add fb_state dummy
 
 # Expiry
 scoreboard objectives add lifeexpiry dummy
