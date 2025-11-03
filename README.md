@@ -1,5 +1,5 @@
 # Meletion\`s Tweaks, and features.
-## Min Version: 1.21.5
+## Min Version: 1.21.6
 
 Meletion\`s tweaks, and features is a quick little datapack I made, to fill a hole in survival minecraft.
 
