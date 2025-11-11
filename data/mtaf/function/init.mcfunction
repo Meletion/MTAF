@@ -55,6 +55,15 @@ scoreboard objectives add spell3Cooldown dummy
 scoreboard objectives add spell4Cooldown dummy
 scoreboard objectives add spell5Cooldown dummy
 scoreboard objectives add spell6Cooldown dummy
+scoreboard objectives add spell7Cooldown dummy
+scoreboard objectives add spell8Cooldown dummy
+scoreboard objectives add spell9Cooldown dummy
+scoreboard objectives add spell10Cooldown dummy
+scoreboard objectives add spell11Cooldown dummy
+scoreboard objectives add spell12Cooldown dummy
+scoreboard objectives add spell13Cooldown dummy
+scoreboard objectives add spell14Cooldown dummy
+scoreboard objectives add spell15Cooldown dummy
 
 scoreboard objectives add spell1Seconds dummy
 scoreboard objectives add spell2Seconds dummy
@@ -62,6 +71,15 @@ scoreboard objectives add spell3Seconds dummy
 scoreboard objectives add spell4Seconds dummy
 scoreboard objectives add spell5Seconds dummy
 scoreboard objectives add spell6Seconds dummy
+scoreboard objectives add spell7Seconds dummy
+scoreboard objectives add spell8Seconds dummy
+scoreboard objectives add spell9Seconds dummy
+scoreboard objectives add spell10Seconds dummy
+scoreboard objectives add spell11Seconds dummy
+scoreboard objectives add spell12Seconds dummy
+scoreboard objectives add spell13Seconds dummy
+scoreboard objectives add spell14Seconds dummy
+scoreboard objectives add spell15Seconds dummy
 # XP Tracking
 scoreboard objectives add XPPoints xp
 

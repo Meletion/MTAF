@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:multi_action",
+  "inputs": [],
+  "can_close_with_escape": true,
+  "columns": 1,
+  "exit_action": {
+    "label": "Exit",
+    "width": 50
+  },
+  "title": {
+    "text": "Spell Book 5 Spell Selecter"
+  },
+  "actions": [
+    {
+      "label": "Spell 13",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ZZZZZZZMTAFHelperTrigger set 13"
+      }
+    },
+    {
+      "label": "Spell 14",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ZZZZZZZMTAFHelperTrigger set 14"
+      }
+    },
+    {
+      "label": "Spell 15",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ZZZZZZZMTAFHelperTrigger set 15"
+      }
+    }
+    
+  ]
+}

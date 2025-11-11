@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:multi_action",
+  "inputs": [],
+  "can_close_with_escape": true,
+  "columns": 1,
+  "exit_action": {
+    "label": "Exit",
+    "width": 50
+  },
+  "title": {
+    "text": "Water Spell Book Spell Selecter"
+  },
+  "actions": [
+    {
+      "label": "Water Splash",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ZZZZZZZMTAFHelperTrigger set 7"
+      }
+    },
+    {
+      "label": "Spell 8",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ZZZZZZZMTAFHelperTrigger set 8"
+      }
+    },
+    {
+      "label": "Spell 9",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ZZZZZZZMTAFHelperTrigger set 9"
+      }
+    }
+    
+  ]
+}

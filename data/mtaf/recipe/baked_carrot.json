@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "minecraft:carrot",
+  "result": {
+    "id": "minecraft:carrot",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation": 9
+      },
+      "minecraft:item_model": "mtaf:baked_carrot",
+      "minecraft:custom_name": {
+        "text": "Baked Carrot",
+        "italic": false
+      }
+    }
+  }
+}
