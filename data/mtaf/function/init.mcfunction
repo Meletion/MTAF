@@ -40,6 +40,8 @@ scoreboard objectives add JoinGame minecraft.custom:minecraft.leave_game
 scoreboard objectives add TNTCount dummy
 scoreboard objectives add BlazePowderCount dummy
 scoreboard objectives add GunpowderCount dummy
+scoreboard objectives add IceCount dummy
+scoreboard objectives add LavabucketCount dummy
 scoreboard objectives add currentSpell dummy
 scoreboard objectives add cloudTimer dummy
 

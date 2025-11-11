@@ -56,5 +56,7 @@ scoreboard objectives remove BlazePowderCount
 scoreboard objectives remove lifeexpiry
 scoreboard objectives remove Fullbright
 scoreboard objectives remove fb_state
+scoreboard objectives remove IceCount
+scoreboard objectives remove LavabucketCount
 tellraw @s {"text":"Sorry to see you go, please contact @meletionyt on discord for any concerns, and have a good rest of your day.\nRemove datapack to finish removal."}
 datapack disable "file/MTAF"

@@ -17,6 +17,8 @@ execute if score @s IsSneaking matches 1 run return 0
 
 execute as @a store result score @s TNTCount run clear @s minecraft:tnt 0
 execute as @a store result score @s BlazePowderCount run clear @s minecraft:blaze_powder 0
+execute as @a store result score @s LavabucketCount run clear @s minecraft:lava_bucket 0
+execute as @a store result score @s IceCount run clear @s minecraft:ice 0
 execute as @a store result score @s GunpowderCount run clear @s minecraft:gunpowder 0
 
 

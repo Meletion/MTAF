@@ -12,21 +12,21 @@
   },
   "actions": [
     {
-      "label": "Soak Everything",
+      "label": "Soak Everything (15 XP)",
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger ZZZZZZZMTAFHelperTrigger set 7"
       }
     },
     {
-      "label": "Spell 8",
+      "label": "Water Healing Ring (3 ICE, 13 XP, Lava)",
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger ZZZZZZZMTAFHelperTrigger set 8"
       }
     },
     {
-      "label": "Spell 9",
+      "label": "I'm just a fish (2 ICE, 30XP)",
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger ZZZZZZZMTAFHelperTrigger set 9"
