@@ -1,8 +1,6 @@
 # called from load.mcfunction
 
 
-execute as @a if score @s died > @s died_check run function mtaf:deathcoords/ondeath
-execute as @a run scoreboard players operation @s died_check = @s died
 
 # Detect players who just rejoined
 execute as @a[scores={JoinGame=1..}] run function mtaf:onjoin

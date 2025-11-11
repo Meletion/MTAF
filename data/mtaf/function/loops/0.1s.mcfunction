@@ -2,6 +2,11 @@
 execute at @e[tag=hitboxcloud] run function mtaf:magic/vfx/cloud
 
 
+# Death coords
+execute as @a if score @s died > @s died_check run function mtaf:deathcoords/ondeath
+execute as @a run scoreboard players operation @s died_check = @s died
+
+
 ######                                                            Death Coords Stuff                                                                        ######
 
 # We update the death coords for each player.

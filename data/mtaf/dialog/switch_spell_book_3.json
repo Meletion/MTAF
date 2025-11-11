@@ -12,7 +12,7 @@
   },
   "actions": [
     {
-      "label": "Water Splash",
+      "label": "Soak Everything",
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger ZZZZZZZMTAFHelperTrigger set 7"

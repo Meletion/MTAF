@@ -7,7 +7,7 @@ execute if score @s spell7Cooldown matches 1.. run return run title @s actionbar
 execute at @s run fill ~5 ~-3 ~-5 ~-5 ~2 ~5 air replace fire
 playsound minecraft:entity.generic.swim master @s ~ ~ ~ 1 1
 playsound entity.splash_potion.throw master @s ~ ~ ~ 1 1
+effect give @s fire_resistance 3 255 true
 
-# Announce spell and set 1 second (20 ticks) cooldown
-title @s actionbar "Water Splash"
+
 scoreboard players add @s spell7Cooldown 20
