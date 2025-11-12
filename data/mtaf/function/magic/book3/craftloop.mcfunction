@@ -1,0 +1,3 @@
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:water_bucket"}}] at @s as @e[type=minecraft:item,nbt={Item:{id:"minecraft:water_bucket"}},distance=..1] as @e[type=minecraft:item,nbt={Item:{id:"minecraft:glow_ink_sac"}},distance=..1] as @e[type=minecraft:item,nbt={Item:{id:"minecraft:ink_sac"}},distance=..1] as @e[type=minecraft:item,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:water"}}}},distance=..1] as @e[type=minecraft:item,nbt={Item:{id:"minecraft:lapis_lazuli"}},distance=..1] as @e[type=minecraft:item,nbt={Item:{id:"minecraft:nautilus_shell"}},distance=..1] if block ~ ~ ~ minecraft:enchanting_table run function mtaf:magic/book3/oncraft
+
+schedule function mtaf:magic/book3/craftloop 10s
