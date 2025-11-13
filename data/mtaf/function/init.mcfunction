@@ -44,8 +44,8 @@ scoreboard objectives add IceCount dummy
 scoreboard objectives add LavabucketCount dummy
 scoreboard objectives add currentSpell dummy
 scoreboard objectives add cloudTimer dummy
-
-
+scoreboard objectives add DragonsBreathCount dummy
+scoreboard objectives add sugarCount dummy
 # ZZZZZZZMTAFHelperTrigger
 scoreboard objectives add ZZZZZZZMTAFHelperTrigger trigger
 

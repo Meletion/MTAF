@@ -34,3 +34,4 @@ function mtaf:loops/0.1s
 schedule function mtaf:magic/book1/craftloop 10s
 schedule function mtaf:magic/book2/craftloop 10s
 schedule function mtaf:magic/book3/craftloop 10s
+schedule function mtaf:magic/book4/craftloop 10s

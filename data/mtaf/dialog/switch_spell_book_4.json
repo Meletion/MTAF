@@ -8,30 +8,32 @@
     "width": 50
   },
   "title": {
-    "text": "Spell Book 4 Spell Selecter"
+    "text": "Lightning Spell Book"
   },
   "actions": [
     {
-      "label": "Spell 10",
+      "label": "Lightning STRIKE (20 Dragon's Breath, 300 XP)",
+      "width": 250,
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger ZZZZZZZMTAFHelperTrigger set 10"
       }
     },
     {
-      "label": "Spell 11",
+      "label": "Adrenaline Rush (30 Sugar, 200 XP)",
+      "width": 250,
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger ZZZZZZZMTAFHelperTrigger set 11"
       }
     },
     {
-      "label": "Spell 12",
+      "label": "Vaporize Stone (64 GP, 250 XP)",
+      "width": 250,
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger ZZZZZZZMTAFHelperTrigger set 12"
       }
     }
-    
   ]
 }

@@ -1,0 +1,3 @@
+execute as @e[type=item,nbt={Item:{components:{"minecraft:item_model":"mtaf:cloud_in_a_bottle"}, count:1}}] at @s if block ~ ~ ~ minecraft:enchanting_table as @e[type=item,distance=..1,nbt={Item:{"id":"minecraft:book"}}] as @e[type=item,distance=..1,nbt={Item:{"id":"minecraft:gold_block", count:2}}] as @e[type=item,distance=..1,nbt={Item:{"id":"minecraft:copper_block", count:2}}] run function mtaf:magic/book4/oncraft
+
+schedule function mtaf:magic/book4/craftloop 10s

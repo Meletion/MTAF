@@ -12,14 +12,14 @@
   },
   "actions": [
     {
-      "label": "TNT Summon (1 TNT. 5XP)",
+      "label": "TNT Summon (1 TNT, 5XP)",
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger ZZZZZZZMTAFHelperTrigger set 1"
       }
     },
     {
-      "label": "Cloud Launch (5GP 5XP)",
+      "label": "Cloud Launch (5GP, 5XP)",
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger ZZZZZZZMTAFHelperTrigger set 2"
